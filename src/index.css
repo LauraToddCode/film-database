@@ -1,13 +1,42 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #36454F;
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#database {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.filmCard {
+    position: relative;
+    max-width: 200px;
+    margin-bottom: 30px;
+}
+
+.filmImg {
+    width: 100%;
+}
+
+.filmTitle {
+    position: absolute;
+    bottom: 25px;
+    left: 5px;
+}
+
+.ratingBlock {
+    background-color: #00264C;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ratingImg {
+    height: 20px;
 }
