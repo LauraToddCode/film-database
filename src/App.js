@@ -1,5 +1,5 @@
-import React from "react"
-import FilmCard from "./FilmCard" 
+import React from "react";
+import FilmCard from "./FilmCard" ;
 
 const films = [
     {
